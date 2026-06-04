@@ -1,14 +1,11 @@
 version: 1
 extends:
-- https://raw.githubusercontent.com/impact-scholars/impact-scholars.github.io/v0.1.0/nexus.yml
-- https://raw.githubusercontent.com/impact-scholars/isp-actions-config/v0.1.0/isp-micropublication-2025.yml
+- https://raw.githubusercontent.com/impact-scholars/impact-scholars.github.io/v0.2.0/nexus.yml
+- https://raw.githubusercontent.com/impact-scholars/isp-actions-config/v0.2.0/isp-micropublication-2025.yml
 
 project:
-  # Uncomment and fill when published
-  # doi: 10.5281/zenodo.XXXXXXX
-  # date: YYYY-MM-DD
   authors:
-  - name: Yilmaz, F.
+  - name: Funda Yılmaz
     orcid: 0000-0001-7055-2204
     affiliations:
     - Donders Institute for Brain, Cognition and Behaviour, Radboud University, Nijmegen, the Netherlands
@@ -23,7 +20,7 @@ project:
     - Visualization
     - Writing - original draft
     - Writing - review & editing
-  - name: Safronov, N.
+  - name: Nikolai Safronov
     orcid: 0000-0002-4139-0151
     affiliations:
     - Department of Engineering, Pontifical Catholic University of Peru, Lima, Peru
@@ -38,7 +35,7 @@ project:
     - Validation
     - Writing - original draft
     - Writing - review & editing
-  - name: Sumich, L.
+  - name: Logan Sumich
     orcid: 0009-0008-9449-5417
     affiliations:
     - Neuromatch Academy, Neuromatch, Inc.
@@ -52,7 +49,7 @@ project:
     - Validation
     - Writing - original draft
     - Writing - review & editing
-  - name: Tian, A.
+  - name: Alisa Tian
     orcid: 0000-0001-7120-8413
     affiliations:
     - Institute for Cognitive Studies Saint Petersburg State University, Saint Petersburg, Russia
@@ -66,7 +63,7 @@ project:
     - Validation
     - Writing - original draft
     - Writing - review & editing
-  - name: Neudorf, J.
+  - name: Josh Neudorf
     orcid: 0000-0001-9227-1358
     affiliations:
     - Centre for Social Sciences, Athabasca University, Athabasca, Canada
@@ -91,7 +88,7 @@ project:
   - file: index.md
   - file: supplementary.md
 
-  id: isp-micropublication-template
+  id: isp-yilmaz-2026-connectivity-memory-load
   title: Domain-general and stimulus-specific functional connectivity networks supporting working memory for faces, body parts, tools, and places
   keywords:
   - Working memory
@@ -99,16 +96,15 @@ project:
   - Functional Connectivity
   - Network Neuroscience
   - Network Based Statistic
-  github: https://github.com/neudorf/HCP_WM
+  github: https://github.com/impact-scholars/yilmaz-2026-connectivity-memory-load
   bibliography:
   - bib.bib
-  # downloads:
-  # - file: supplementary-material.zip
-  #   title: Supplementary Material
 
   exports:
   - format: typst
     id: typst-pdf
+    template: https://github.com/impact-scholars/isp-lapreprint-typst.git
+    breakable_figures: true
     articles:
     - file: index.md
       title: null

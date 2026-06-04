@@ -15,22 +15,6 @@
   }
 )
 
-#show figure.where(kind: "table"): it => context {
-  set text(size: 7pt)
-
-  let m = page.margin
-  let left = if type(m) == dictionary {
-    if "left" in m { m.left }
-    else if "x" in m { m.x }
-    else { 0pt }
-  } else if type(m) == length {
-    m
-  } else {
-    0pt
-  }
-
-  pad(left: -left, it)
-}
 ````
 
 ```{list-table} Top 50 unique functional network connections for faces.
