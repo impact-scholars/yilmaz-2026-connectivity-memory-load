@@ -35,7 +35,7 @@ acknowledgments: |
 &ensp; &ensp; The circular plots in [](#figure-main)A - D displays two connection types: shared (domain-general) connections representing the intersection of significant edges across all four category-specific NBS results, and category-specific unique connections representing edges significant within a given stimulus category but absent from the shared set. Across all categories, we observed unique stimulus-dependent connectivity that was predominantly negative ([](#figure-main)A - D). The Face condition showed the highest number of unique connections (n = 2566), followed by Body (n = 2321), Tools (n = 1104), and Places (n = 933). Negative edges dominated in every category, comprising from 80.3% to 89.6% of connections, with Body and Places showing the strongest skew toward negative connectivity. The domain-general analysis ([](#figure-main)E) revealed shared connections, all except one of which were negative, indicating a highly consistent reduction in connectivity across all task conditions with the increase of WM load. [](#figure-main)F demonstrates aggregated connectivity strength within each network was normalized by the number of constituent regions to account for differences in network size, yielding a size-independent measure of connectivity strength. These connections were primarily concentrated within frontoparietal and dorsal-attention networks (see [](#figure-main)F), representing a significant domain-general network underlying visual working memory load.
 
 
-```{figure} figure.png
+```{figure} figure.jpg
 :name: figure-main
 :alt: Multi-panel figure supporting the main findings
 **Network-based statistic (NBS) connectivity results across the four stimulus categories.**
