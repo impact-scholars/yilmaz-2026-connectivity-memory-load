@@ -4,15 +4,109 @@ extends:
 - https://raw.githubusercontent.com/impact-scholars/isp-actions-config/v0.2.0/isp-micropublication-2025.yml
 
 project:
-  authors: []
+  authors:
+  - name: Funda Yılmaz
+    orcid: 0000-0001-7055-2204
+    affiliations:
+    - Donders Institute for Brain, Cognition and Behaviour, Radboud University, Nijmegen, the Netherlands
+    roles:
+    - Conceptualization
+    - Data curation
+    - Formal analysis
+    - Investigation
+    - Methodology
+    - Software
+    - Validation
+    - Visualization
+    - Writing - original draft
+    - Writing - review & editing
+  - name: Nikolai Safronov
+    orcid: 0000-0002-4139-0151
+    affiliations:
+    - Department of Engineering, Pontifical Catholic University of Peru, Lima, Peru
+    - Neuromatch Academy, Neuromatch, Inc.
+    roles:
+    - Conceptualization
+    - Data curation
+    - Formal analysis
+    - Investigation
+    - Methodology
+    - Software
+    - Validation
+    - Writing - original draft
+    - Writing - review & editing
+  - name: Logan Sumich
+    orcid: 0009-0008-9449-5417
+    affiliations:
+    - Neuromatch Academy, Neuromatch, Inc.
+    roles:
+    - Conceptualization
+    - Data curation
+    - Formal analysis
+    - Investigation
+    - Methodology
+    - Software
+    - Validation
+    - Writing - original draft
+    - Writing - review & editing
+  - name: Alisa Tian
+    orcid: 0000-0001-7120-8413
+    affiliations:
+    - Institute for Cognitive Studies Saint Petersburg State University, Saint Petersburg, Russia
+    roles:
+    - Conceptualization
+    - Data curation
+    - Formal analysis
+    - Investigation
+    - Methodology
+    - Software
+    - Validation
+    - Writing - original draft
+    - Writing - review & editing
+  - name: Josh Neudorf
+    orcid: 0000-0001-9227-1358
+    affiliations:
+    - Centre for Social Sciences, Athabasca University, Athabasca, Canada
+    - Department of Psychology, University of Alberta, Edmonton, Canada
+    - Neuroscience and Mental Health Institute, University of Alberta, Edmonton, Canada
+    - Institute for Neuroscience and Neurotechnology, Simon Fraser University, Burnaby, Canada
+    roles:
+    - Conceptualization
+    - Data curation
+    - Formal analysis
+    - Investigation
+    - Methodology
+    - Project administration
+    - Software
+    - Supervision
+    - Validation
+    - Visualization
+    - Writing - original draft
+    - Writing - review & editing
+
   toc:
   - file: index.md
-  id:
-  title:
-  keywords: []
-  github:
+  - file: supplementary.md
+
+  id: isp-yilmaz-2026-connectivity-memory-load
+  title: Domain-general and stimulus-specific functional connectivity networks supporting working memory for faces, body parts, tools, and places
+  keywords:
+  - Working memory
+  - fMRI
+  - Functional Connectivity
+  - Network Neuroscience
+  - Network Based Statistic
+  github: https://github.com/impact-scholars/yilmaz-2026-connectivity-memory-load
   bibliography:
   - bib.bib
 
-site:
-  template: https://raw.githubusercontent.com/impact-scholars/myst-theme/v0.2.0/.deploy/book/template.yml
+  exports:
+  - format: typst
+    id: typst-pdf
+    template: https://github.com/impact-scholars/isp-lapreprint-typst.git
+    breakable_figures: true
+    articles:
+    - file: index.md
+      title: null
+    - file: supplementary.md
+      title: null
