@@ -107,6 +107,8 @@ project:
     breakable_figures: true
     articles:
     - file: index.md
-      title: null
+      title:
     - file: supplementary.md
-      title: null
+      title:
+  doi: 10.5281/zenodo.20606455
+  date: 2026-06-09
