@@ -102,6 +102,9 @@ project:
   - Network Neuroscience
   - Network Based Statistic
   github: https://github.com/impact-scholars/yilmaz-2026-connectivity-memory-load
+  options:
+    youtube: https://www.youtube.com/watch?v=bG0QwhbYmwc
+
   bibliography:
   - bib.bib
 
