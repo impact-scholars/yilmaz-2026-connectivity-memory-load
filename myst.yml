@@ -20,6 +20,7 @@ project:
     - Visualization
     - Writing - original draft
     - Writing - review & editing
+    equal_contributor: True
   - name: Nikolai Safronov
     orcid: 0000-0002-4139-0151
     affiliations:
@@ -35,6 +36,7 @@ project:
     - Validation
     - Writing - original draft
     - Writing - review & editing
+    equal_contributor: True
   - name: Logan Sumich
     orcid: 0009-0008-9449-5417
     affiliations:
@@ -49,6 +51,7 @@ project:
     - Validation
     - Writing - original draft
     - Writing - review & editing
+    equal_contributor: True
   - name: Alisa Tian
     orcid: 0000-0001-7120-8413
     affiliations:
@@ -63,6 +66,7 @@ project:
     - Validation
     - Writing - original draft
     - Writing - review & editing
+    equal_contributor: True
   - name: Josh Neudorf
     orcid: 0000-0001-9227-1358
     affiliations:
@@ -83,6 +87,7 @@ project:
     - Visualization
     - Writing - original draft
     - Writing - review & editing
+    equal_contributor: True
 
   toc:
   - file: index.md
