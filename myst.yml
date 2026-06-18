@@ -103,10 +103,14 @@ project:
   - Network Based Statistic
   github: https://github.com/impact-scholars/yilmaz-2026-connectivity-memory-load
   options:
-    youtube: https://www.youtube.com/watch?v=bG0QwhbYmwc
+    youtube: https://youtu.be/bG0QwhbYmwc?t=242
 
   bibliography:
   - bib.bib
+
+  downloads:
+  - title: Seminar Presentation
+    url: https://youtu.be/bG0QwhbYmwc?t=242
 
   exports:
   - format: typst
