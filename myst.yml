@@ -87,7 +87,7 @@ project:
     - Visualization
     - Writing - original draft
     - Writing - review & editing
-    equal_contributor: True
+    equal_contributor: False
 
   toc:
   - file: index.md
